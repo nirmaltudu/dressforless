@@ -1,0 +1,22 @@
+/* MENU */
+.menu-wrap {
+	float: right;
+}
+
+ul.menu {
+    margin: auto;
+}
+
+.menu li {
+    float: left;
+    height: 35px;
+    line-height: 30px;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    list-style: none;
+}
+
+	.menu li:hover {
+    background-color: #AADE32;
+}
+

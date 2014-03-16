@@ -1,0 +1,115 @@
+.footer {
+	position: relative;
+	background: url("/images/bg/footer.png") repeat-x bottom;
+	border-top: 1px solid #CCCCCC;
+	margin-top: 50px;
+	font-size: 11px;
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	z-index: -20;	
+}
+
+.footer a {
+	color: #565656;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: rgb(34, 113, 178);
+	text-decoration: underline;
+}
+
+.footer_bottom {
+	overflow: hidden;
+}
+
+.footer_bottom a {
+	display: block;
+}
+
+.footer_top_item, .footer_bottom_item {
+	float: left;
+	width: 23.5%;
+	margin: 0px;
+	padding: 0% 0.7%;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.footer-policy {
+	padding-bottom: 40px;	
+}
+
+.facebook-icon {
+	background: url('/images/social-sprite.png') no-repeat scroll 0 0 transparent;
+	background-position: -508px 0px;
+	width: 31px;
+	height: 31px;
+	float: left;
+}
+.facebook-icon:hover {
+	background: url('/images/social-sprite.png') no-repeat scroll 0 0 transparent;
+	background-position: -508px -98px;
+	width: 31px;
+	height: 31px;
+	float: left;
+}
+
+.twitter-icon {
+	background: url('/images/social-sprite.png') no-repeat scroll 0 0 transparent;
+	background-position: -508px -33px;
+	width: 31px;
+	height: 31px;
+	float: left;
+}
+
+.twitter-icon:hover {
+	background: url('/images/social-sprite.png') no-repeat scroll 0 0 transparent;
+	background-position: -508px -130px;
+	width: 31px;
+	height: 31px;
+	float: left;
+}
+
+.google-icon {
+	background: url('/images/social-sprite.png') no-repeat scroll 0 0 transparent;
+	background-position: -508px -65px;
+	width: 31px;
+	height: 31px;
+	float: left;
+}
+
+.google-icon:hover {
+	background: url('/images/social-sprite.png') no-repeat scroll 0 0 transparent;
+	background-position: -508px -162px;
+	width: 31px;
+	height: 31px;
+	float: left;
+}
+
+.payment-method {
+	background: url('/images/social-sprite.png') no-repeat scroll 0 0 transparent;
+	width: 425px;
+	height: 33px;
+}
+
+.pay-dashed-line {
+	border-top: 1px solid #ccc;
+	float: left;
+	margin: 4px 0px 0px;
+	width: 313px;
+}
+
+.pay-text {
+	font-size: 8px;
+}
+
+.pay-wrap {
+	width: 430px;
+	margin: 4px 0px 0px 0px;
+}
+
+.about-text {
+	line-height: 16px;	
+}

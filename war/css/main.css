@@ -1,0 +1,63 @@
+body {
+	background:url("/images/bg/top-rainbow.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+	background-color:#d3e9f5;
+	color: #362b36;
+}
+
+.main-container {
+    background: url("/images/bg/top-rainbow.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: auto;
+    margin: auto;
+    width: 950px;
+}
+
+.header {
+	height:150px;
+	margin: auto;
+	width: 950px;
+} 
+
+.top-bar {
+	position:fixed;
+	background-color: #005212;
+	width:100%;
+	z-index:20;
+	padding:10px 0;
+}
+
+.top-bar-content {
+	margin: 0 auto;
+	position: relative;
+}
+
+.clear {
+	clear:both;
+}
+
+.float-l {
+	float:left;
+}
+
+.float-r {
+	float:right;
+}
+
+.center-content {
+	width: auto;
+    height: auto;
+}
+
+.footer {
+	width: 100%;
+    color: #848484;
+    padding: 20px;
+}
+
+.content {
+	width: 950px;
+	margin: 0 auto; 
+}
+
+.bold {
+	font-weight:bold;
+} 

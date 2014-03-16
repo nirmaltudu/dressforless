@@ -1,0 +1,117 @@
+.header {
+	-webkit-transition: all 300ms linear 0s;
+	-moz-transition: all 300ms linear 0s;
+	-ms-transition: all 300ms linear 0s;
+	transition: all 300ms linear 0s;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #EEEEEE;
+	height: 70px;
+	background-color: #F8F8F8;
+	background-color: #D9F38E;
+	/*background-color: #FFEF82;
+	background-color: #99FF99;
+	background-color: #CCDDDD;
+	background-color: #FFDDFF;
+	background-color: #FFFF99;
+	background-color: #E3FF56;*/
+	top: 0px;
+	z-index: 99999;
+}
+
+.header-links {
+	-webkit-transition: all 300ms linear 0s;
+	-moz-transition: all 300ms linear 0s;
+	-ms-transition: all 300ms linear 0s;
+	transition: all 300ms linear 0s;
+	margin: -12px 0px -6px 0px;
+	font-size: 12px;
+	background-color: #EEEEEE;
+	background-color: #AADE32;
+	/*background-color: #FDCB25;
+	background-color: #33CC66;
+	background-color: #AACCEE;
+	background-color: #BB33BB;
+	background-color: #FF9900;
+	background-color: #B5D41D;*/
+	position: fixed;
+	top: 0px;
+	height: 40px;
+	width: 100%;
+}
+
+.header-menu {
+	-webkit-transition: all 300ms linear 0s;
+	-moz-transition: all 300ms linear 0s;
+	-ms-transition: all 300ms linear 0s;
+	transition: all 300ms linear 0s;
+	position: fixed;
+	top: 40px;
+	height: 40px;
+	width: 100%;
+	margin-top: -5px;
+}
+
+.header-links li {
+	border-right: 1px solid #ffffff;
+	list-style: none;
+	list-style-type: none;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.header-links li a {
+	display: block;
+	padding: 0px 10px;
+	margin: 2px 0px;
+	line-height: 19px;
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.header-links a:hover {
+	color: rgb(34, 113, 178);
+	text-decoration: underline;
+}
+
+.logo {
+	background: url("/images/logo_transparent_small.png") no-repeat;
+	background-size: 130px 90px;
+	width: 130px;
+	height: 90px;
+	float: left;
+	/*margin-top: 10px;
+	background-color: gainsboro;
+	border: 1px solid gray;*/
+	position: fixed;
+	top: 0px;
+}
+
+.cart {
+	 color: white;
+	 background-color: crimson;
+	 padding: 7px;
+	 line-height: 30px;
+}
+
+.cart-icon {
+	background-image: url('/images/icon-sprite.png');
+	background-repeat: no-repeat;
+	background-position: 0px -87px;
+	display: inline-block;
+	width: 24px;
+	height: 21px;
+	zoom: 1;
+	vertical-align: middle;	
+}
+
+.cart-count {
+	background-color: white;
+	color: crimson;
+	/*width: 15px;
+	height: 15px;*/
+	border-radius: 50px;
+	padding: 2px;
+}
